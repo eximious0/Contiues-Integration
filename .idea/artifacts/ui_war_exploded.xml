@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ui:war exploded">
+    <output-path>$PROJECT_DIR$/target/ui</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>ui</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ui" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="ui-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="ui" />
+          </element>
+          <element id="library" level="project" name="Maven: com.dragon:api:1.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.dragon:core:1.0-SNAPSHOT" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/ui/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ui/web/Web" />
+    </root>
+  </artifact>
+</component>
