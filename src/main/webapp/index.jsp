@@ -1,6 +1,5 @@
 <html>
 <body>
-<h2>Hello World!</h2>
-<%= System.out.println( "Hello Long Hui: " ) %>>
+<h2>Hello World! Long Hui</h2>
 </body>
 </html>
