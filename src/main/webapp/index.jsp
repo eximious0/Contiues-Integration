@@ -1,7 +1,6 @@
-<%@ page import="com.dragon.ApiService" %>
 <html>
 <body>
 <h2>Hello World!</h2>
-<%= System.out.println( "Hello JSP: " ) %>>
+<%= System.out.println( "Hello Long Hui: " ) %>>
 </body>
 </html>
